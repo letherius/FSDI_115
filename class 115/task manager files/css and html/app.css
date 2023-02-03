@@ -1,0 +1,119 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+h1 {
+  background-color: #212121;
+  color: white;
+  padding: 5px 0;
+  text-align: center;
+  margin: 0;
+}
+
+.parent {
+  display: flex;
+  height: 89%;
+  background: url(https://previews.123rf.com/images/foottoo/foottoo1302/foottoo130200567/17977956-modern-concrete-wall-and-grass-nice-background-with-space-for-text.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list {
+  flex: 3;
+  position: relative;
+}
+
+.list h3 {
+  text-align: center;
+  color: BLACK;
+  margin-top: 10px;
+}
+
+.form {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.151);
+  box-shadow: -17px 10px 38px 6px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: -17px 10px 38px 6px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: -17px 10px 38px 6px rgba(0, 0, 0, 0.65);
+}
+
+.form h3 {
+  text-align: center;
+  margin-top: 30px;
+}
+.my-control {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.my-control label {
+  width: 110px;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.my-control input,
+.my-control select,
+.my-control textarea {
+  flex-grow: 1;
+  padding: 3px 5px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.icon {
+  font-size: 35px;
+  color: #6a6a6a;
+  cursor: pointer;
+}
+
+.fas {
+  color: red;
+}
+
+#task-list {
+  padding: 15px 30px;
+}
+
+.task {
+  border: 1px solid green;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  display: flex;
+  color: white;
+  border-radius: 5px;
+  background-color: rgba(220, 20, 60, 0.24);
+}
+
+.task label {
+  display: block;
+}
+
+.task .head {
+  flex: 3;
+}
+
+.task .middle {
+  flex: 1;
+}
+
+.task .tail {
+  flex: 1;
+}
+
+#iImportant {
+  color: black;
+  margin-left: 90px;
+}
+
+#btnHideForm {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
